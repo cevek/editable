@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+*[contenteditable="true"] {
+    outline: 2px dashed gold;
+}
+
+*{
+    outline: none;
+}
+
+*[data-wrap] {
+    /*display: inline-block;*/
+    /*outline: 2px dashed aquamarine;*/
+}
+
+.link {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
